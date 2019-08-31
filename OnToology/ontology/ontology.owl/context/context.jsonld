@@ -1,0 +1,23 @@
+{
+  "@context" : {
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "teachesIn" : {
+      "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn",
+      "@type" : "@id"
+    },
+    "AcademicStaff" : {
+      "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff"
+    },
+    "Staff" : {
+      "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff"
+    },
+    "Course" : {
+      "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course"
+    }
+  }
+}
