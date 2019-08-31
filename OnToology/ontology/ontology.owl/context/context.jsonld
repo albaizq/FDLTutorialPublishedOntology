@@ -1,5 +1,8 @@
 {
   "@context" : {
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
@@ -8,9 +11,6 @@
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
-    },
-    "title" : {
-      "@id" : "http://purl.org/dc/elements/1.1/title"
     },
     "teachesIn" : {
       "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn",
