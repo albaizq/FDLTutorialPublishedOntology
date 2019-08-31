@@ -1,5 +1,5 @@
 <https://w3id.org/def/university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/def/university> <http://purl.org/dc/elements/1.1/title> "Ontology for Universities" .
+<https://w3id.org/def/university> <http://purl.org/dc/terms/title> "Ontology for Universities" .
 <https://w3id.org/def/university> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology aims to model the staff and courses related to a University (built for the FDL tutorial)" .
 <https://w3id.org/def/university> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
 # 
@@ -13,6 +13,9 @@
 # 
 # http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 

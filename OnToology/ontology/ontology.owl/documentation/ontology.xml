@@ -6,9 +6,10 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/def/university">
-        <dc:title>Ontology for Universities</dc:title>
+        <terms:title>Ontology for Universities</terms:title>
         <rdfs:comment>This ontology aims to model the staff and courses related to a University (built for the FDL tutorial)</rdfs:comment>
         <owl:versionInfo>0.0.1</owl:versionInfo>
     </owl:Ontology>
@@ -31,6 +32,13 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 

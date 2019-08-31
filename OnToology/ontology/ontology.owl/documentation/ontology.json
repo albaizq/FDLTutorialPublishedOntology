@@ -11,6 +11,9 @@
   "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -39,7 +42,7 @@
 }, {
   "@id" : "https://w3id.org/def/university",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/elements/1.1/title" : [ {
+  "http://purl.org/dc/terms/title" : [ {
     "@value" : "Ontology for Universities"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
