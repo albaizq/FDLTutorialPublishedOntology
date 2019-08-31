@@ -1,8 +1,8 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course" ; /*classes style*/
-	"NULL" -> "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course" [ label = "owl:someValuesFrom" ];
-	"NULL" -> "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn" [ label = "owl:onProperty" ];
+node [shape = rectangle, color="orange"]; "base:Course" ; /*classes style*/
+	"NULL" -> "base:Course" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "base:teachesIn" [ label = "owl:onProperty" ];
 
 }
