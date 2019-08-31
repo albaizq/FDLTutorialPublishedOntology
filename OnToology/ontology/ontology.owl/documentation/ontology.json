@@ -2,13 +2,13 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn"
+    "@id" : "https://w3id.org/def/university#teachesIn"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course"
+    "@id" : "https://w3id.org/def/university#Course"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51",
+  "@id" : "https://w3id.org/def/university",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "University ontology"
@@ -17,29 +17,29 @@
     "@value" : "0.0.1"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff",
+  "@id" : "https://w3id.org/def/university#AcademicStaff",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Academic staff"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff"
+    "@id" : "https://w3id.org/def/university#Staff"
   }, {
     "@id" : "_:genid1"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course",
+  "@id" : "https://w3id.org/def/university#Course",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Course"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff",
+  "@id" : "https://w3id.org/def/university#Staff",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Staff"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn",
+  "@id" : "https://w3id.org/def/university#teachesIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 } ]
