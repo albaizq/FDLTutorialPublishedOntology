@@ -6,18 +6,24 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
     "teachesIn" : {
-      "@id" : "https://w3id.org/def/university#teachesIn",
+      "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn",
       "@type" : "@id"
     },
     "AcademicStaff" : {
-      "@id" : "https://w3id.org/def/university#AcademicStaff"
-    },
-    "Course" : {
-      "@id" : "https://w3id.org/def/university#Course"
+      "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff"
     },
     "Staff" : {
-      "@id" : "https://w3id.org/def/university#Staff"
+      "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff"
+    },
+    "Course" : {
+      "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course"
     }
   }
 }
