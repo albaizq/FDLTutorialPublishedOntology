@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "base:Staff" "base:AcademicStaff" ; /*classes style*/
-	"base:AcademicStaff" -> "base:Staff" [ label = "rdfs:subClassOf" ];
+node [shape = rectangle, color="black"]; "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff" "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff" ; /*classes style*/
+	"http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff" -> "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff" [ label = "rdfs:subClassOf" ];
 
 }

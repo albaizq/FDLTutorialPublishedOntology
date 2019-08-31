@@ -1,6 +1,22 @@
 <https://w3id.org/def/university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/def/university> <http://www.w3.org/2000/01/rdf-schema#label> "University ontology" .
+<https://w3id.org/def/university> <http://purl.org/dc/terms/title> "Ontology for Universities" .
+<https://w3id.org/def/university> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology aims to model the staff and courses related to a University (built for the FDL tutorial)" .
 <https://w3id.org/def/university> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # 
 # 
 # #################################################################
@@ -10,8 +26,8 @@
 # #################################################################
 # 
 # 
-# https://w3id.org/def/university#teachesIn
-<https://w3id.org/def/university#teachesIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn
+<http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
 # 
 # 
@@ -22,21 +38,21 @@
 # #################################################################
 # 
 # 
-# https://w3id.org/def/university#AcademicStaff
-<https://w3id.org/def/university#AcademicStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/university#AcademicStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/university#Staff> .
-<https://w3id.org/def/university#AcademicStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+# http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff
+<http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff> .
+<http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/university#teachesIn> .
-_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/university#Course> .
-<https://w3id.org/def/university#AcademicStaff> <http://www.w3.org/2000/01/rdf-schema#label> "Academic staff" .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course> .
+<http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff> <http://www.w3.org/2000/01/rdf-schema#label> "Academic staff" .
 # 
-# https://w3id.org/def/university#Course
-<https://w3id.org/def/university#Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/university#Course> <http://www.w3.org/2000/01/rdf-schema#label> "Course" .
+# http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course
+<http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course> <http://www.w3.org/2000/01/rdf-schema#label> "Course" .
 # 
-# https://w3id.org/def/university#Staff
-<https://w3id.org/def/university#Staff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/university#Staff> <http://www.w3.org/2000/01/rdf-schema#label> "Staff" .
+# http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff
+<http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff> <http://www.w3.org/2000/01/rdf-schema#label> "Staff" .
 # 
 # Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
