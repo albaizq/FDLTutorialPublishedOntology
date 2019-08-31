@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/def/university#"
      xml:base="https://w3id.org/def/university"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -28,13 +27,6 @@
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/title -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
-
-
     <!-- http://purl.org/dc/terms/title -->
 
 
@@ -54,10 +46,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn -->
+    <!-- https://w3id.org/def/university#teachesIn -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/university#teachesIn"/>
     
 
 
@@ -73,15 +65,15 @@
     
 
 
-    <!-- http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff -->
+    <!-- https://w3id.org/def/university#AcademicStaff -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff"/>
+    <owl:Class rdf:about="https://w3id.org/def/university#AcademicStaff">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/university#Staff"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course"/>
+                <owl:onProperty rdf:resource="https://w3id.org/def/university#teachesIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/university#Course"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Academic staff</rdfs:label>
@@ -89,19 +81,19 @@
     
 
 
-    <!-- http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course -->
+    <!-- https://w3id.org/def/university#Course -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course">
+    <owl:Class rdf:about="https://w3id.org/def/university#Course">
         <rdfs:label>Course</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff -->
+    <!-- https://w3id.org/def/university#Staff -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff">
+    <owl:Class rdf:about="https://w3id.org/def/university#Staff">
         <rdfs:label>Staff</rdfs:label>
     </owl:Class>
 </rdf:RDF>

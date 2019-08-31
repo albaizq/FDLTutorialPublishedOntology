@@ -1,7 +1,7 @@
 {
   "@context" : {
     "title" : {
-      "@id" : "http://purl.org/dc/elements/1.1/title"
+      "@id" : "http://purl.org/dc/terms/title"
     },
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
@@ -13,17 +13,17 @@
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "teachesIn" : {
-      "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn",
+      "@id" : "https://w3id.org/def/university#teachesIn",
       "@type" : "@id"
     },
     "AcademicStaff" : {
-      "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff"
-    },
-    "Staff" : {
-      "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff"
+      "@id" : "https://w3id.org/def/university#AcademicStaff"
     },
     "Course" : {
-      "@id" : "http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course"
+      "@id" : "https://w3id.org/def/university#Course"
+    },
+    "Staff" : {
+      "@id" : "https://w3id.org/def/university#Staff"
     }
   }
 }
